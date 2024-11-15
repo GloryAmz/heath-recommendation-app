@@ -1,13 +1,11 @@
-# 📦 Streamlit App Starter Kit 
+# Health Recommendation App
 ```
-⬆️ (Replace above with your app's name)
+⬆️ This is to predict heart health casualities
 ```
-
-Description of the app ...
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://health-recommendation.streamlit.app/)
 
 ## GitHub Codespaces
 
