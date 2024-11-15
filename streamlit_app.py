@@ -7,6 +7,6 @@ st.write('This is a health prediction app')
 
 with st.expander('Data:'):
   st.write('**Raw Data**')
-df = pd.read_csv('user_data.csv')
+df = pd.read_csv('https://github.com/GloryAmz/heath-recommendation-app/blob/master/user_data.csv')
 df
 
