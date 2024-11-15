@@ -26,7 +26,7 @@ def cluster_users(df, num_clusters=3):
     kmeans = KMeans(n_clusters=num_clusters)
     df['fitness_profile'] = kmeans.fit_predict(df[['avg_daily_steps', 'BMI', 'calorie_intake']])
     return df
-  def collaborative_filtering_recommendation(user_data):
+  def collaborative_filtering_recommendation(update_data):
     # Placeholder function: Implement collaborative filtering if possible
     pass
 
