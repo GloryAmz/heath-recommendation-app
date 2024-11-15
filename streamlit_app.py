@@ -10,9 +10,10 @@ with st.expander('Data:'):
 df = pd.read_csv('https://github.com/GloryAmz/heath-recommendation-app/blob/master/user_data.csv')
 df
 st.write('**X**')
-X = df.drop('names', axis = 1)
+X_raw = df.drop('names', axis = 1)
+X_raw
 
 st.write('**Y**')
-Y = df.names
-Y
+Y_raw = df.names
+Y_raw
 
