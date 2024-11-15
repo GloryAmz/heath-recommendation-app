@@ -1,0 +1,5 @@
+name,user_id,steps,intensity,duration,calories,protein_grams,carb_grams,fat_grams,heart_rate,systolic_bp,diastolic_bp,bmi,goal
+Alice,3d158bcd-aa60-4feb-8651-2208b4345610,10863,3,91,1990,53,315,57,83,95,83,28.2,cardio improvement
+Bob,40af8df1-5506-4d48-ae28-35cee0c9852b,11178,7,78,1965,71,285,60,94,123,79,30.6,cardio improvement
+Charlie,e0f1f641-9d86-4c7f-9d67-e73d5b9e8cf7,11807,5,100,1922,162,194,55,89,122,61,32.5,muscle gain
+David,7ef6bd48-8e94-40fd-b2fb-cacd095f8124,17412,2,118,1862,109,220,60,93,91,75,33.6,endurance
