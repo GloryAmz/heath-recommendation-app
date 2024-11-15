@@ -20,6 +20,12 @@ def add_health_ratios(df):
     # Example: Adding BMI or activity-to-rest ratio
     df['activity_to_rest_ratio'] = df['steps'] / df['rest']
     return df
+from sklearn.cluster import KMeans
+
+def cluster_users(df, num_clusters=3):
+    kmeans = KMeans(n_clusters=num_clusters)
+    df['fitness_profile'] = kmeans.fit_predict(df[['avg_daily_steps', 'BMI', 'calorie_intake']])
+    return df
 
 
 
